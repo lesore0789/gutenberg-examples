@@ -12,7 +12,7 @@ const Save = ( props ) => {
 	const blockProps = useBlockProps.save();
 	return (
 		<div { ...blockProps }>
-			<RichText.Content tagName="h2" value={ title } />
+			<RichText.Content tagName="h1" value={ title } />
 
 			{ mediaURL && (
 				<img

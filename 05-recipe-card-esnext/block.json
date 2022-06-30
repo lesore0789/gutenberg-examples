@@ -9,7 +9,7 @@
 		"title": {
 			"type": "string",
 			"source": "html",
-			"selector": "h2"
+			"selector": "h1"
 		},
 		"mediaID": {
 			"type": "number"

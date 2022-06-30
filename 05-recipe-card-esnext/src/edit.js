@@ -34,7 +34,7 @@ const Edit = ( props ) => {
 	return (
 		<div { ...blockProps }>
 			<RichText
-				tagName="h2"
+				tagName="h1"
 				placeholder={ __(
 					'Write Recipe title…',
 					'gutenberg-examples'
