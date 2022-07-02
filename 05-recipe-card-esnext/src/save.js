@@ -45,7 +45,7 @@ const Save = ( props ) => {
 				</div>
 			</div>
 			<RichText.Content
-				tagName="div"
+				tagName="ol"
 				className="steps"
 				value={ instructions }
 			/>

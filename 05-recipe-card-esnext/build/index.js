@@ -144,8 +144,8 @@ const Edit = props => {
     onChange: onChangeIngredients,
     className: "ingredients"
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Instructions', 'gutenberg-examples')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
-    tagName: "div",
-    multiline: "p",
+    tagName: "ol",
+    multiline: "li",
     className: "steps",
     placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Write the instructions…', 'gutenberg-examples'),
     value: instructions,
@@ -248,7 +248,7 @@ const Save = props => {
   }, "Cook Time"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "15 min")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
     className: "time-title"
   }, "Total Time"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "30 min"))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
-    tagName: "div",
+    tagName: "ol",
     className: "steps",
     value: instructions
   }));

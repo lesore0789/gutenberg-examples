@@ -117,8 +117,8 @@ const Edit = ( props ) => {
 			/>
 			<h3>{ __( 'Instructions', 'gutenberg-examples' ) }</h3>
 			<RichText
-				tagName="div"
-				multiline="p"
+				tagName="ol"
+				multiline="li"
 				className="steps"
 				placeholder={ __(
 					'Write the instructions…',
