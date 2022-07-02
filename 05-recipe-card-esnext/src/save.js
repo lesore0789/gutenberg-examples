@@ -30,6 +30,20 @@ const Save = ( props ) => {
 			/>
 
 			<h3>{ __( 'Instructions', 'gutenberg-examples' ) }</h3>
+			<div className='table-container'>
+				<div>
+					<p className='time-title'>Prep Time</p>
+					<p>15 min</p>
+				</div>
+				<div>
+					<p className='time-title'>Cook Time</p>
+					<p>15 min</p>
+				</div>
+				<div>
+					<p className='time-title'>Total Time</p>
+					<p>30 min</p>
+				</div>
+			</div>
 			<RichText.Content
 				tagName="div"
 				className="steps"

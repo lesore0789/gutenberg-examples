@@ -39,3 +39,22 @@
 	clear:both; 
 	display: table; 
 }
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .table-container{
+	display: flex;
+	justify-content: space-between;
+	background-color: #f6fafa;
+	max-width: 20em;
+	margin: 1em 0em;
+	
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .table-container .time-title{
+	font-weight: bold;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	color: #5e9393;
+	letter-spacing: 0.1em;
+	margin-bottom: -20px;
+
+}
