@@ -42,11 +42,9 @@
 
 .wp-block-gutenberg-examples-example-05-recipe-card-esnext .table-container{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-color: #f6fafa;
 	max-width: 20em;
-	margin: 1em 0em;
-	
 }
 
 .wp-block-gutenberg-examples-example-05-recipe-card-esnext .table-container .time-title{
